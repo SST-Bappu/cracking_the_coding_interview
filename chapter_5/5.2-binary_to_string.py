@@ -7,7 +7,6 @@ def binary_to_string(num: float) -> str:
         if len(binary_string)>=32:
             return 'ERROR'
         
-        print(binary_string, num)
         num = 2 * num
         if num>=1:
             binary_string+='1'
